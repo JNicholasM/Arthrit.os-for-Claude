@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# the release is stored byte for byte (the packed OS must not be changed)
+release/** -text
+release/arthrit.pak binary
